@@ -12,6 +12,7 @@ struct Home: View {
     @State var ingresarpaciente:Bool = false
     @State var ingresardoctor:Bool = false
     
+    
     var body: some View {
         VStack{
             HStack{
