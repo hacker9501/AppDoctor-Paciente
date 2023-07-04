@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct LoginPatient: View {
-    @State private var name: String = ""
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var recupassword: String = ""
+    
+    @State private var registrar : Bool = false
+    @State private var iniciar : Bool = false
     
     var body: some View {
         ZStack{
@@ -53,9 +55,9 @@ struct LoginPatient: View {
 
                         })
                         Button(action: {
-                            
+                            iniciar = true
                         }, label: {
-                            Text("Registrarse")
+                            Text("Iniciar sesión")
                                 .frame(width: 300,height: 40)
                                 .background(.black)
                                 .cornerRadius(25)
@@ -63,17 +65,20 @@ struct LoginPatient: View {
                                 .padding(.top,10)
                             
                         })
+                        NavigationLink(destination: TabViews(),isActive: $iniciar, label: {EmptyView()}).hidden()
                         
                         HStack{
-                            Text("¿Ya tienes una cuenta?")
+                            Text("¿No tienes una cuenta?")
                             Button(action: {
-                                
+                                registrar = true
                             }, label: {
-                                Text("Sign in")
+                                Text("Sign up")
                                 
                             })
                         }
                         .padding()
+                        NavigationLink(destination: RegisterPatient(),isActive: $registrar ,label: {EmptyView()})
+                            .hidden()
                         
                     }.padding()
                     

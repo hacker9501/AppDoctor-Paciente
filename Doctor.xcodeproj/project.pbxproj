@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7380002F2A4441D1009D7B14 /* UserPacientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380002E2A4441D1009D7B14 /* UserPacientes.swift */; };
+		738000312A44420E009D7B14 /* UserDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738000302A44420E009D7B14 /* UserDoctor.swift */; };
+		738000332A4464C9009D7B14 /* CancelCitas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738000322A4464C9009D7B14 /* CancelCitas.swift */; };
+		738000352A447241009D7B14 /* HomeVerPaciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738000342A447241009D7B14 /* HomeVerPaciente.swift */; };
+		738000372A44726D009D7B14 /* DocVerPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738000362A44726D009D7B14 /* DocVerPatient.swift */; };
+		738000392A447295009D7B14 /* DocCitasPacientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738000382A447295009D7B14 /* DocCitasPacientes.swift */; };
+		7380003B2A4472FF009D7B14 /* ChatsConPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380003A2A4472FF009D7B14 /* ChatsConPatient.swift */; };
+		7380003D2A447377009D7B14 /* ChatsDocPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380003C2A447377009D7B14 /* ChatsDocPatient.swift */; };
+		7380003F2A4473A3009D7B14 /* DocVerDetailsPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380003E2A4473A3009D7B14 /* DocVerDetailsPatient.swift */; };
+		738000412A456871009D7B14 /* TabsViewsPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738000402A456871009D7B14 /* TabsViewsPatient.swift */; };
 		73A6545C2A429F150000CDD9 /* DoctorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A6545B2A429F150000CDD9 /* DoctorApp.swift */; };
 		73A6545E2A429F150000CDD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A6545D2A429F150000CDD9 /* ContentView.swift */; };
 		73A654602A429F170000CDD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A6545F2A429F170000CDD9 /* Assets.xcassets */; };
@@ -16,15 +26,25 @@
 		73A6546F2A42A1000000CDD9 /* Registerdoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A6546E2A42A1000000CDD9 /* Registerdoc.swift */; };
 		73A654712A42A1170000CDD9 /* LoginPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A654702A42A1170000CDD9 /* LoginPatient.swift */; };
 		73A654732A42A12D0000CDD9 /* RegisterPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A654722A42A12D0000CDD9 /* RegisterPatient.swift */; };
-		73A654752A42A1460000CDD9 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A654742A42A1460000CDD9 /* TabViews.swift */; };
-		73A654772A42A1650000CDD9 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A654762A42A1650000CDD9 /* HomePage.swift */; };
-		73A654792A42A1930000CDD9 /* Citas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A654782A42A1930000CDD9 /* Citas.swift */; };
-		73A6547B2A42A19F0000CDD9 /* Chats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A6547A2A42A19F0000CDD9 /* Chats.swift */; };
-		73A6547D2A42A1A90000CDD9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A6547C2A42A1A90000CDD9 /* Profile.swift */; };
-		73A6547F2A42A1CC0000CDD9 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A6547E2A42A1CC0000CDD9 /* Search.swift */; };
+		73A654752A42A1460000CDD9 /* TabViewsDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A654742A42A1460000CDD9 /* TabViewsDoc.swift */; };
+		73A654772A42A1650000CDD9 /* HomePageDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A654762A42A1650000CDD9 /* HomePageDoc.swift */; };
+		73A654792A42A1930000CDD9 /* CitasDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A654782A42A1930000CDD9 /* CitasDoc.swift */; };
+		73A6547B2A42A19F0000CDD9 /* ChatsDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A6547A2A42A19F0000CDD9 /* ChatsDoc.swift */; };
+		73A6547D2A42A1A90000CDD9 /* ProfileDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A6547C2A42A1A90000CDD9 /* ProfileDoc.swift */; };
+		73A6547F2A42A1CC0000CDD9 /* SearchDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A6547E2A42A1CC0000CDD9 /* SearchDoc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7380002E2A4441D1009D7B14 /* UserPacientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPacientes.swift; sourceTree = "<group>"; };
+		738000302A44420E009D7B14 /* UserDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDoctor.swift; sourceTree = "<group>"; };
+		738000322A4464C9009D7B14 /* CancelCitas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelCitas.swift; sourceTree = "<group>"; };
+		738000342A447241009D7B14 /* HomeVerPaciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVerPaciente.swift; sourceTree = "<group>"; };
+		738000362A44726D009D7B14 /* DocVerPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocVerPatient.swift; sourceTree = "<group>"; };
+		738000382A447295009D7B14 /* DocCitasPacientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocCitasPacientes.swift; sourceTree = "<group>"; };
+		7380003A2A4472FF009D7B14 /* ChatsConPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsConPatient.swift; sourceTree = "<group>"; };
+		7380003C2A447377009D7B14 /* ChatsDocPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsDocPatient.swift; sourceTree = "<group>"; };
+		7380003E2A4473A3009D7B14 /* DocVerDetailsPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocVerDetailsPatient.swift; sourceTree = "<group>"; };
+		738000402A456871009D7B14 /* TabsViewsPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewsPatient.swift; sourceTree = "<group>"; };
 		73A654582A429F150000CDD9 /* Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A6545B2A429F150000CDD9 /* DoctorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorApp.swift; sourceTree = "<group>"; };
 		73A6545D2A429F150000CDD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,12 +55,12 @@
 		73A6546E2A42A1000000CDD9 /* Registerdoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registerdoc.swift; sourceTree = "<group>"; };
 		73A654702A42A1170000CDD9 /* LoginPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPatient.swift; sourceTree = "<group>"; };
 		73A654722A42A12D0000CDD9 /* RegisterPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPatient.swift; sourceTree = "<group>"; };
-		73A654742A42A1460000CDD9 /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
-		73A654762A42A1650000CDD9 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
-		73A654782A42A1930000CDD9 /* Citas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Citas.swift; sourceTree = "<group>"; };
-		73A6547A2A42A19F0000CDD9 /* Chats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chats.swift; sourceTree = "<group>"; };
-		73A6547C2A42A1A90000CDD9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		73A6547E2A42A1CC0000CDD9 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		73A654742A42A1460000CDD9 /* TabViewsDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewsDoc.swift; sourceTree = "<group>"; };
+		73A654762A42A1650000CDD9 /* HomePageDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageDoc.swift; sourceTree = "<group>"; };
+		73A654782A42A1930000CDD9 /* CitasDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitasDoc.swift; sourceTree = "<group>"; };
+		73A6547A2A42A19F0000CDD9 /* ChatsDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsDoc.swift; sourceTree = "<group>"; };
+		73A6547C2A42A1A90000CDD9 /* ProfileDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDoc.swift; sourceTree = "<group>"; };
+		73A6547E2A42A1CC0000CDD9 /* SearchDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDoc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7380002C2A444141009D7B14 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7380002D2A4441A2009D7B14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7380002E2A4441D1009D7B14 /* UserPacientes.swift */,
+				738000302A44420E009D7B14 /* UserDoctor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		73A6544F2A429F140000CDD9 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +109,8 @@
 		73A6545A2A429F150000CDD9 /* Doctor */ = {
 			isa = PBXGroup;
 			children = (
+				7380002D2A4441A2009D7B14 /* Model */,
+				7380002C2A444141009D7B14 /* ViewModel */,
 				73A654692A42A0A70000CDD9 /* Views */,
 				73A6545B2A429F150000CDD9 /* DoctorApp.swift */,
 				73A6545D2A429F150000CDD9 /* ContentView.swift */,
@@ -98,12 +136,20 @@
 				73A6546E2A42A1000000CDD9 /* Registerdoc.swift */,
 				73A654702A42A1170000CDD9 /* LoginPatient.swift */,
 				73A654722A42A12D0000CDD9 /* RegisterPatient.swift */,
-				73A654742A42A1460000CDD9 /* TabViews.swift */,
-				73A654762A42A1650000CDD9 /* HomePage.swift */,
-				73A654782A42A1930000CDD9 /* Citas.swift */,
-				73A6547A2A42A19F0000CDD9 /* Chats.swift */,
-				73A6547C2A42A1A90000CDD9 /* Profile.swift */,
-				73A6547E2A42A1CC0000CDD9 /* Search.swift */,
+				73A654742A42A1460000CDD9 /* TabViewsDoc.swift */,
+				73A654762A42A1650000CDD9 /* HomePageDoc.swift */,
+				73A654782A42A1930000CDD9 /* CitasDoc.swift */,
+				73A6547A2A42A19F0000CDD9 /* ChatsDoc.swift */,
+				73A6547C2A42A1A90000CDD9 /* ProfileDoc.swift */,
+				73A6547E2A42A1CC0000CDD9 /* SearchDoc.swift */,
+				738000322A4464C9009D7B14 /* CancelCitas.swift */,
+				738000342A447241009D7B14 /* HomeVerPaciente.swift */,
+				738000362A44726D009D7B14 /* DocVerPatient.swift */,
+				738000382A447295009D7B14 /* DocCitasPacientes.swift */,
+				7380003A2A4472FF009D7B14 /* ChatsConPatient.swift */,
+				7380003C2A447377009D7B14 /* ChatsDocPatient.swift */,
+				7380003E2A4473A3009D7B14 /* DocVerDetailsPatient.swift */,
+				738000402A456871009D7B14 /* TabsViewsPatient.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,18 +224,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73A6547F2A42A1CC0000CDD9 /* Search.swift in Sources */,
+				7380003B2A4472FF009D7B14 /* ChatsConPatient.swift in Sources */,
+				73A6547F2A42A1CC0000CDD9 /* SearchDoc.swift in Sources */,
 				73A6546F2A42A1000000CDD9 /* Registerdoc.swift in Sources */,
-				73A6547D2A42A1A90000CDD9 /* Profile.swift in Sources */,
-				73A654772A42A1650000CDD9 /* HomePage.swift in Sources */,
+				738000412A456871009D7B14 /* TabsViewsPatient.swift in Sources */,
+				73A6547D2A42A1A90000CDD9 /* ProfileDoc.swift in Sources */,
+				738000352A447241009D7B14 /* HomeVerPaciente.swift in Sources */,
+				73A654772A42A1650000CDD9 /* HomePageDoc.swift in Sources */,
+				738000392A447295009D7B14 /* DocCitasPacientes.swift in Sources */,
 				73A654712A42A1170000CDD9 /* LoginPatient.swift in Sources */,
-				73A6547B2A42A19F0000CDD9 /* Chats.swift in Sources */,
+				73A6547B2A42A19F0000CDD9 /* ChatsDoc.swift in Sources */,
+				738000332A4464C9009D7B14 /* CancelCitas.swift in Sources */,
 				73A6546D2A42A0ED0000CDD9 /* Logindoc.swift in Sources */,
+				738000312A44420E009D7B14 /* UserDoctor.swift in Sources */,
 				73A6545E2A429F150000CDD9 /* ContentView.swift in Sources */,
+				7380003D2A447377009D7B14 /* ChatsDocPatient.swift in Sources */,
 				73A6546B2A42A0BF0000CDD9 /* Home.swift in Sources */,
+				738000372A44726D009D7B14 /* DocVerPatient.swift in Sources */,
 				73A654732A42A12D0000CDD9 /* RegisterPatient.swift in Sources */,
-				73A654752A42A1460000CDD9 /* TabViews.swift in Sources */,
-				73A654792A42A1930000CDD9 /* Citas.swift in Sources */,
+				73A654752A42A1460000CDD9 /* TabViewsDoc.swift in Sources */,
+				7380002F2A4441D1009D7B14 /* UserPacientes.swift in Sources */,
+				7380003F2A4473A3009D7B14 /* DocVerDetailsPatient.swift in Sources */,
+				73A654792A42A1930000CDD9 /* CitasDoc.swift in Sources */,
 				73A6545C2A429F150000CDD9 /* DoctorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

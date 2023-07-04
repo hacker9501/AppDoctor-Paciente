@@ -58,7 +58,6 @@ struct Home: View {
                         .hidden()
                 }
                 .padding(.bottom,25)
-                Image("shape")
                 
             }
         }
